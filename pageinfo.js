@@ -114,6 +114,7 @@ var context = {
     }else{
         context.sfhost = context.pod + ".salesforce.com";
     } 
+    context.sfhost = hostname;
     
 }());
 
